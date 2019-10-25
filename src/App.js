@@ -16,7 +16,7 @@ class AppTomsCopy extends React.Component  {
       perSecondVariable: 1,
       outputEnd: "seconds passed.  Yeah, not real interesting, is it?  PICK A DIFFERENT CONTEXT!",
       unit: "seconds",
-      image: "https://66.media.tumblr.com/a3360cf64800079574ebda2d58a02178/tumblr_inline_ol4mqmyQGd1qekxju_640.gifv"
+      image: "https://www.filebuzz.com/software_screenshot/full/56774-Analogue_Vista_Clock.gif"
     },
     selectedGameObj: {},
     top10Scores: [],

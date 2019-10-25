@@ -7,11 +7,11 @@ class LettersGame extends React.Component {
     answerString: ""
   }
 
-  gameNumberLength = () => { return 10}
+  gameNumberLength = () => { return 20}
 
   startGame = () => {
     this.setState({
-      randomString: this.randomString(7),
+      randomString: this.randomString(this.gameNumberLength()),
       answerString: ""
     })
     this.props.startGame()

@@ -44,7 +44,6 @@ class ScoreType extends React.Component {
             options = this.props.allContextOptionsArr.map(obj => <option key={obj.id} value={obj.id.toString()} >{obj.description}</option>)
         }
 
-        let contextImage = (this.state.dropdownSelection === 1 && this.props.top10Scores.length === 0) ? stoppedseconds : this.props.scoreContextObject.image
 
         return(
             <div >
@@ -55,7 +54,7 @@ class ScoreType extends React.Component {
                 {options}
             </select></h1>
                 <div id="ScoreContainerLeft" >
-                    <img className='image' id="contextImage" src={contextImage} />
+                    <img className='image' id="contextImage" src={this.props.scoreContextObject.image} />
                 </div>
             </div>
 
