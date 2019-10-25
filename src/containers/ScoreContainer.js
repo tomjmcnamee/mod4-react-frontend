@@ -19,7 +19,8 @@ class ScoreContainer extends Component {
                     <ScoreType allContextOptionsArr={this.props.allContextOptionsArr} 
                     setScoreContextType={this.props.setScoreContextType} 
                     scoreContextObject={this.props.scoreContextObject} 
-                    fetchContextOptionsForDropdown={this.props.fetchContextOptionsForDropdown} />
+                    fetchContextOptionsForDropdown={this.props.fetchContextOptionsForDropdown} 
+                    top10Scores={this.props.top10Scores} />
                 <div id="ScoreContainerRight">
                 <h3>10 Quickest Scores for {this.props.gameName ? this.props.gameName : "Selected Game"} </h3>
                     <ol>{scoreComponents}</ol>

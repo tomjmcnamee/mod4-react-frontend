@@ -7,7 +7,7 @@ class LettersGame extends React.Component {
     answerString: ""
   }
 
-  gameNumberLength = () => { return 5}
+  gameNumberLength = () => { return 10}
 
   startGame = () => {
     this.setState({
